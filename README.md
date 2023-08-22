@@ -26,7 +26,7 @@ Using my new found mongo skills this project required me to setup a full mongo b
 
 Here is my demo video, in it I am mainly making calls to http://localhost:3001/api/users and http://localhost:3001/api/thoughts.
 
-[![Demo of usage](https://youtu.be/xYNdVIU07TE)]
+[Demo of usage on Youtube](https://youtu.be/xYNdVIU07TE)
 
 ## Credits
 
