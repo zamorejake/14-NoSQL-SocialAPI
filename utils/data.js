@@ -24,11 +24,11 @@ const thoughtTexts = [
   "Exploring new ideas.",
 ];
 
-const getRandomArrItem = (item) => item[Math.floor(Math.random() * item.length)];
+const randomItem = (item) => item[Math.floor(Math.random() * item.length)];
 
 const getRandomUserName = () =>
-  `${getRandomArrItem(userNames)} ${getRandomArrItem(userNames)}`;
+  `${randomItem(userNames)} ${randomItem(userNames)}`;
 
-const getRandomThoughtText = () => getRandomArrItem(thoughtTexts);
+const getRandomThoughtText = () => randomItem(thoughtTexts);
 
 module.exports = { getRandomUserName, getRandomThoughtText };
